@@ -87,4 +87,6 @@ P(initializer_list<int>),values= 77 5 42
 
 
 // 4  源码分析
+// 这里的源码分析，简单提一下，就跳过吧，后面的版本和视频中提到的，构造initializer_list不同了。
 
+//视频中提到的是，编译器发现有{}，就会调用initializer_list的私有函数  constexpr initializer_list(const_iterator __a,size_type __l):_M_array(__a),_M_len(__l){} 来创建一个array 
